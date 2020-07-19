@@ -1,0 +1,5 @@
+FROM python:3
+
+ENV PYTHONUMBUFFERED 1
+RUN mkdir /code
+WORKDIR /code
